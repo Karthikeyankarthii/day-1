@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background: rgb(red, green, blue);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-primary {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
